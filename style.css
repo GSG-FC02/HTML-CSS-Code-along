@@ -1,4 +1,88 @@
 
+/* General Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header style */
+
+.header{
+    padding: 32px ;
+    background-color: #35424a;
+    color: white;
+    border-bottom: 3px solid #e8491d;
+
+}
+#header{
+    color: #e8491d;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_container_title{
+    margin-left: 20px;
+}
+
+.header_nav{
+    width: 30%;
+}
+
+.header_nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_nav_list a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.list_item_active a{
+    color: #e8491d;
+
+}
+
+.header_nav_list a:hover{
+    color: #e8491d;
+
+}
+
+
+
+
+/* Media Query style */
+
+@media screen and (max-width : 768px){
+
+    .header_container{
+        flex-direction: column;
+    }
+    .header_nav{
+        width: 100%;
+    }
+    .header_container_title{
+        padding-bottom: 10px;
+        margin-left: 0px;
+    }
+
+}
+
+
+
+
+
+
+
 /* Colors 
 
 #35424a;
@@ -11,12 +95,5 @@
 
 
 
- /*----------------------------------------------------*/
 
  
-
- /* Font 
-
- "Times New Roman"
-
-  */

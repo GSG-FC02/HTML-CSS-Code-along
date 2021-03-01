@@ -1,5 +1,7 @@
 # Session 06 : HTML and CSS Code along project
 
+## Live link [here](https://gsg-fc02.github.io/HTML-CSS-Code-along/)
+
 ## Description 📰
 
 At this workshop you will create a portfolio web page for you that should includes the most topics that you have already learned at the previous sessions of HTML and CSS.

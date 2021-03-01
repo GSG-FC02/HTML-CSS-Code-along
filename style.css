@@ -32,14 +32,14 @@
   width: 30%;
 }
 
-.header_nav_list {
+.header_nav_list,  .header_nav_list_about {
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.header_nav_list a {
+.header_nav_list a, .header_nav_list_about a {
   text-decoration: none;
   color: white;
   font-size: 22px;
@@ -167,6 +167,26 @@
 .skill_box_content {
   padding: 10px;
 }
+
+
+ /*About Page Style*/
+
+ .about {
+  height: 200px;
+  text-align: center;
+  }
+
+  .about h1 {
+    padding: 20px;
+  }
+
+  .header_nav_list_about{
+    justify-content: center;
+  }
+
+  .header_nav_list_about li {
+    padding: 0px 35px;
+  }
 
 /*Footer Style */
 
